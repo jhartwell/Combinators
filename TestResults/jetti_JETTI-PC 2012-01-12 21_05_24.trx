@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9ff0c1e7-914c-446c-a305-a98e40e5ad7b" name="jetti@JETTI-PC 2012-01-12 21:05:24" runUser="jetti-PC\jetti" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f38551aa-cce3-4c9c-b338-6dc9c15741ad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jetti_JETTI-PC 2012-01-12 21_05_24">
+      <DeploymentItem filename="C:\Users\jetti\Combinators\Combinators\bin\Debug\Combinators.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T21:05:24.9806637-06:00" queuing="2012-01-12T21:05:25.0176658-06:00" start="2012-01-12T21:05:25.0346668-06:00" finish="2012-01-12T21:05:25.3076824-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="KCombinatorIEnumberableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="7f72c452-4fca-1ee5-91bf-eb341226dcb2">
+      <Execution id="cb83ead4-cc57-4701-9a5d-da4576fe35bc" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="KCombinatorIEnumberableTest" />
+    </UnitTest>
+    <UnitTest name="KCombinatorNonEnumerableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="6f30461a-ac18-8a2b-cc8f-9c9bf93a5101">
+      <Execution id="23496370-21ec-46a8-bfd7-e64ee52afb70" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="KCombinatorNonEnumerableTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6f30461a-ac18-8a2b-cc8f-9c9bf93a5101" executionId="23496370-21ec-46a8-bfd7-e64ee52afb70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f72c452-4fca-1ee5-91bf-eb341226dcb2" executionId="cb83ead4-cc57-4701-9a5d-da4576fe35bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="23496370-21ec-46a8-bfd7-e64ee52afb70" testId="6f30461a-ac18-8a2b-cc8f-9c9bf93a5101" testName="KCombinatorNonEnumerableTest" computerName="JETTI-PC" duration="00:00:00.0826718" startTime="2012-01-12T21:05:25.0346668-06:00" endTime="2012-01-12T21:05:25.2906815-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23496370-21ec-46a8-bfd7-e64ee52afb70">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+          <StackTrace>   at Tests.CombinatorTests.&lt;&gt;c__DisplayClass4.&lt;KCombinatorNonEnumerableTest&gt;b__3(Object x) in C:\Users\jetti\Combinators\Tests\CombinatorTests.cs:line 31
+   at Jettsonator.Combinators.CombinatorExtensions.K[T](T me, Action`1 action) in C:\Users\jetti\Combinators\Combinators\CombinatorExtensions.cs:line 69
+   at Tests.CombinatorTests.KCombinatorNonEnumerableTest() in C:\Users\jetti\Combinators\Tests\CombinatorTests.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cb83ead4-cc57-4701-9a5d-da4576fe35bc" testId="7f72c452-4fca-1ee5-91bf-eb341226dcb2" testName="KCombinatorIEnumberableTest" computerName="JETTI-PC" duration="00:00:00.0014090" startTime="2012-01-12T21:05:25.2926816-06:00" endTime="2012-01-12T21:05:25.2976819-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb83ead4-cc57-4701-9a5d-da4576fe35bc">
+    </UnitTestResult>
+  </Results>
+</TestRun>

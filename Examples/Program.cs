@@ -21,10 +21,10 @@ namespace Examples
             randomList.Add(rand.Next());
             randomList.Add(rand.Next());
 
-            randomList.K(x => Console.WriteLine(x));
+            //randomList.K(x => Console.WriteLine(x));
 
             int singleInt = 100;
-            singleInt.K(x => Console.WriteLine("This is single int {0}", x));
+            singleInt.k(x => Console.WriteLine("This is single int {0}", x));
             Console.ReadLine();
             
         }

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6039e8e5-af29-4dc5-9ffe-1a3aaf4466a1" name="jetti@JETTI-PC 2012-01-12 21:36:04" runUser="jetti-PC\jetti" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="f38551aa-cce3-4c9c-b338-6dc9c15741ad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="jetti_JETTI-PC 2012-01-12 21_36_04">
+      <DeploymentItem filename="C:\Users\jetti\Combinators\Combinators\bin\Debug\Combinators.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-12T21:36:04.6659166-06:00" queuing="2012-01-12T21:36:04.7239200-06:00" start="2012-01-12T21:36:04.7379208-06:00" finish="2012-01-12T21:36:04.9839270-06:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="6" executed="6" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="bCombinatorNonEnumerableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="23a107af-dbbf-4275-2785-3f938395de5f">
+      <Execution id="4f040826-589d-444b-a6f1-fbdca6a3c30a" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="bCombinatorNonEnumerableTest" />
+    </UnitTest>
+    <UnitTest name="KCombinatorNonEnumerableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="6f30461a-ac18-8a2b-cc8f-9c9bf93a5101">
+      <Execution id="318ced5c-d712-45a8-8371-db94878884ee" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="KCombinatorNonEnumerableTest" />
+    </UnitTest>
+    <UnitTest name="CCombinatorIEnumerableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="d5eb120d-3040-3c27-d27b-93c136a23e68">
+      <Execution id="1ad71bad-ba98-43cf-9075-a882d55481d3" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CCombinatorIEnumerableTest" />
+    </UnitTest>
+    <UnitTest name="CCombinatorNonEnumerable" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="587a0537-07af-aaf0-cadf-e1293801880a">
+      <Execution id="4fd186e9-56ba-43b7-956c-31ab936d9dca" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CCombinatorNonEnumerable" />
+    </UnitTest>
+    <UnitTest name="BCombinatorIEnumerableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="6399a604-fd56-6740-6af6-f751e3b8cb0b">
+      <Execution id="62847afd-592e-4a66-b460-5306f7d62655" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BCombinatorIEnumerableTest" />
+    </UnitTest>
+    <UnitTest name="KCombinatorIEnumberableTest" storage="c:\users\jetti\combinators\tests\bin\debug\tests.dll" id="7f72c452-4fca-1ee5-91bf-eb341226dcb2">
+      <Execution id="bf38551b-3555-41a6-b3fe-ea2a30f62a7d" />
+      <TestMethod codeBase="C:/Users/jetti/Combinators/Tests/bin/Debug/Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.CombinatorTests, Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="KCombinatorIEnumberableTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="23a107af-dbbf-4275-2785-3f938395de5f" executionId="4f040826-589d-444b-a6f1-fbdca6a3c30a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="587a0537-07af-aaf0-cadf-e1293801880a" executionId="4fd186e9-56ba-43b7-956c-31ab936d9dca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6399a604-fd56-6740-6af6-f751e3b8cb0b" executionId="62847afd-592e-4a66-b460-5306f7d62655" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f30461a-ac18-8a2b-cc8f-9c9bf93a5101" executionId="318ced5c-d712-45a8-8371-db94878884ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f72c452-4fca-1ee5-91bf-eb341226dcb2" executionId="bf38551b-3555-41a6-b3fe-ea2a30f62a7d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5eb120d-3040-3c27-d27b-93c136a23e68" executionId="1ad71bad-ba98-43cf-9075-a882d55481d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4f040826-589d-444b-a6f1-fbdca6a3c30a" testId="23a107af-dbbf-4275-2785-3f938395de5f" testName="bCombinatorNonEnumerableTest" computerName="JETTI-PC" duration="00:00:00.0116129" startTime="2012-01-12T21:36:04.7419210-06:00" endTime="2012-01-12T21:36:04.9429247-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f040826-589d-444b-a6f1-fbdca6a3c30a">
+    </UnitTestResult>
+    <UnitTestResult executionId="4fd186e9-56ba-43b7-956c-31ab936d9dca" testId="587a0537-07af-aaf0-cadf-e1293801880a" testName="CCombinatorNonEnumerable" computerName="JETTI-PC" duration="00:00:00.0044058" startTime="2012-01-12T21:36:04.9449248-06:00" endTime="2012-01-12T21:36:04.9529252-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fd186e9-56ba-43b7-956c-31ab936d9dca">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. </Message>
+          <StackTrace>   at Tests.CombinatorTests.CCombinatorNonEnumerable() in C:\Users\jetti\Combinators\Tests\CombinatorTests.cs:line 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="62847afd-592e-4a66-b460-5306f7d62655" testId="6399a604-fd56-6740-6af6-f751e3b8cb0b" testName="BCombinatorIEnumerableTest" computerName="JETTI-PC" duration="00:00:00.0017811" startTime="2012-01-12T21:36:04.9539253-06:00" endTime="2012-01-12T21:36:04.9579255-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62847afd-592e-4a66-b460-5306f7d62655">
+    </UnitTestResult>
+    <UnitTestResult executionId="318ced5c-d712-45a8-8371-db94878884ee" testId="6f30461a-ac18-8a2b-cc8f-9c9bf93a5101" testName="KCombinatorNonEnumerableTest" computerName="JETTI-PC" duration="00:00:00.0010302" startTime="2012-01-12T21:36:04.9589256-06:00" endTime="2012-01-12T21:36:04.9639259-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="318ced5c-d712-45a8-8371-db94878884ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="bf38551b-3555-41a6-b3fe-ea2a30f62a7d" testId="7f72c452-4fca-1ee5-91bf-eb341226dcb2" testName="KCombinatorIEnumberableTest" computerName="JETTI-PC" duration="00:00:00.0014563" startTime="2012-01-12T21:36:04.9659260-06:00" endTime="2012-01-12T21:36:04.9699262-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf38551b-3555-41a6-b3fe-ea2a30f62a7d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ad71bad-ba98-43cf-9075-a882d55481d3" testId="d5eb120d-3040-3c27-d27b-93c136a23e68" testName="CCombinatorIEnumerableTest" computerName="JETTI-PC" duration="00:00:00.0004962" startTime="2012-01-12T21:36:04.9699262-06:00" endTime="2012-01-12T21:36:04.9729264-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ad71bad-ba98-43cf-9075-a882d55481d3">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. </Message>
+          <StackTrace>   at Tests.CombinatorTests.CCombinatorIEnumerableTest() in C:\Users\jetti\Combinators\Tests\CombinatorTests.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
