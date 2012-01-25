@@ -1,0 +1,18 @@
+Combinators is an extension method library for using logic combinators in C#. Currently, there is only the B, C and K combinators.
+
+Conventions:
+The combinator name in lower case (e.g. k) is used for all types that do not inherit from IEnumerable. The combinator name in upper case (e.g. K) is used for all types that DO inherit from IEnumerable.
+
+
+Use Cases:
+
+The K-Combinator is defined as K x y -> x. In this library, x is defined as the item that is having the method called on it. 'y' is defined as an Action<T>. This makes the K-Combinator a perfect method for logging as giving by the following example:
+
+  List<string> names = new List<string>();
+  names.Add("Jon");
+  names.Add("Jacob");
+  names.Add("Paul");
+  names.K(x => Console.WriteLine(x))  
+       .Reverse<string>()
+       .K(x => Console.WriteLine(x));
+
