@@ -5,3 +5,10 @@ C:\Users\jetti\Combinators\Tests\bin\Debug\Combinators.dll
 C:\Users\jetti\Combinators\Tests\bin\Debug\Combinators.pdb
 C:\Users\jetti\Combinators\Tests\obj\Debug\Tests.dll
 C:\Users\jetti\Combinators\Tests\obj\Debug\Tests.pdb
+C:\Users\jon\Combinators\Tests\bin\Debug\Tests.dll
+C:\Users\jon\Combinators\Tests\bin\Debug\Tests.pdb
+C:\Users\jon\Combinators\Tests\bin\Debug\Combinators.dll
+C:\Users\jon\Combinators\Tests\bin\Debug\Combinators.pdb
+C:\Users\jon\Combinators\Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jon\Combinators\Tests\obj\Debug\Tests.dll
+C:\Users\jon\Combinators\Tests\obj\Debug\Tests.pdb
